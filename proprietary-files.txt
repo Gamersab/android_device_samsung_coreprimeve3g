@@ -1,0 +1,117 @@
+# egl
+lib/egl/libGLES_mali.so
+lib/egl/egl.cfg
+
+# hw
+lib/hw/audio_policy.sc8830.so
+lib/hw/audio.primary.sc8830.so
+lib/hw/camera.sc8830.so
+lib/hw/gralloc.sc8830.so
+lib/hw/hwcomposer.sc8830.so
+lib/hw/sensors.sc8830.so
+lib/hw/sprd_gsp.sc8830.so
+lib/hw/lights.sc8830.so
+
+# lib
+lib/libisp.so
+lib/libQmageDecoder.so
+lib/lib_SamsungRec_V03010.so
+lib/lib_Samsung_Resampler.so
+lib/lib_Samsung_SB_AM_for_ICS_v03008.so
+lib/libatparser.so
+lib/libfactoryutil.so
+lib/libjpega.so
+lib/libomission_avoidance.so
+lib/libril.so
+lib/libsamsungRecord.so
+lib/libsamsungSoundbooster.so
+lib/libsecnativefeature.so
+lib/libsecril-client.so
+lib/libstagefrighthw.so
+lib/libwvm.so
+lib/libreference-ril_sp.so
+lib/libbt-vendor.so
+
+# cameradata
+cameradata/datapattern_420sp.yuv
+cameradata/datapattern_front_420sp.yuv
+
+# other libs
+lib/libcontrolcsc.so
+lib/libvbeffect.so
+lib/libvbpga.so
+lib/libaudiopolicy_sec.so
+lib/libstagefright_soft_aacdec.so
+lib/libstagefright_soft_aacenc.so
+lib/libstagefright_soft_amrdec.so
+lib/libstagefright_soft_gsmdec.so
+lib/libstagefright_soft_mp3dec.so
+lib/libstagefright_soft_rawdec.so
+lib/libstagefright_soft_vpxdec.so
+lib/libstagefright_soft_vpxenc.so
+lib/libstagefright_soft_flacenc.so
+lib/libstagefright_soft_g711dec.so
+lib/libstagefright_soft_h264dec.so
+lib/libstagefright_soft_h264enc.so
+lib/libstagefright_soft_hevcdec.so
+lib/libstagefright_soft_mjpgdec.so
+lib/libstagefright_soft_opusdec.so
+lib/libstagefright_soft_amrnbenc.so
+lib/libstagefright_soft_amrwbenc.so
+lib/libstagefright_soft_mpeg4dec.so
+lib/libstagefright_soft_mpeg4dec.so
+lib/libstagefright_soft_vorbisdec.so
+lib/libstagefright_soft_imaadpcmdec.so
+lib/libbinder.so
+lib/libion.so
+usr/share/alsa/alsa.conf
+
+# vendor
+vendor/firmware/BCM43430A1_V0025.0070.hcd
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libWVStreamControlAPI_L3.so
+
+# other libs
+lib/libomx_avcdec_hw_sprd.so
+lib/libomx_avcdec_sw_sprd.so
+lib/libomx_avcenc_hw_sprd.so
+lib/libomx_m4vh263dec_hw_sprd.so
+lib/libomx_m4vh263dec_sw_sprd.so
+lib/libomx_m4vh263enc_hw_sprd.so
+lib/libomx_vpxdec_hw_sprd.so
+
+# Wifi
+etc/wifi/bcmdhd_apsta.bin
+etc/wifi/bcmdhd_mfg.bin
+etc/wifi/bcmdhd_sta.bin
+etc/wifi/nvram_mfg.txt
+etc/wifi/nvram_net.txt
+
+# etc
+etc/audio_para
+etc/audio_policy.conf
+etc/codec_pga.xml
+etc/gps.conf
+etc/media_codecs.xml
+etc/media_profiles.xml
+etc/slog.conf
+etc/slog.conf.user
+etc/tiny_hw.xml
+
+# bin
+bin/at_distributor
+bin/atrace
+bin/calibration_init
+bin/cpu
+bin/macloader
+bin/mfgloader
+bin/rild
+bin/sensorservice
+bin/modemd
+bin/slog
+bin/slogctl
+bin/phoneserver
+bin/refnotify
+bin/gpsd
+bin/lpm
+bin/npsmobex
