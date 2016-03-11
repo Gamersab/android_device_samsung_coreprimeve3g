@@ -4,7 +4,6 @@ USE_CAMERA_STUB := true
 -include vendor/samsung/coreprimeve3g/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
-TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := sc8830
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -13,7 +12,9 @@ TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
+# Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := SC7730SE
+TARGET_NO_BOOTLOADER := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyS1,115200n8
