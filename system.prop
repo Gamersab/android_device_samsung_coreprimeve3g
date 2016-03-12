@@ -65,6 +65,20 @@ drm.service.enabled=true
 # hotspot development
 ro.hotspot.enabled=1
 
+# RIL
+ro.com.android.dataroaming=false
+ro.msms.phone_count=2
+persist.msms.phone_count=2
+persist.msmslt=0
+ro.modem.w.count=2
+persist.sys.modem.diag=,gser
+sys.usb.gser.count=2
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ril.sim2.present=1
+persist.radio.multisim.config=dsds
+ro.telephony.ril_class=SamsungSPRDRIL
+
 # this product does not support bt and softap coexist
 ro.btwifisoftap.coexist=false
 # SPRD: add support hwrotation
