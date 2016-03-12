@@ -36,6 +36,9 @@ BOARD_FLASH_BLOCK_SIZE                       := 131072
 TARGET_USERIMAGES_USE_EXT4                   := true
 BOARD_HAS_LARGE_FILESYSTEM                   := true
 
+# RIL
+BOARD_RIL_CLASS                              := ../../../device/samsung/coreprimeve3g/ril
+
 # Hardware rendering
 TARGET_BOARD_PLATFORM_GPU                    := mali-400 MP2
 BOARD_EGL_CFG                                := device/samsung/coreprimeve3g/egl/egl.cfg
