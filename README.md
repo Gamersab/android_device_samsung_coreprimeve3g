@@ -1,3 +1,6 @@
+Don't Copy My Work Without My Permission.
+You Can Email Me at - piyushnagpal010@gmail.com
+
 # Device configuration for Samsung Galaxy Core Prime VE SM-G361H (coreprimeve3g)
 
 ## Spec Sheet
